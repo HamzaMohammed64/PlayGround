@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b35">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Cloudbound — little journeys, big skies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Cloudbound home"><span class="brand-mark">✳</span><span>cloudbound<span class="brand-dot">.</span></span></a>
+      <div class="top-meta"><span class="wallet"><span class="coin">✦</span><b id="coin-count">500</b><span>coins</span></span><button class="admin-trigger" id="admin-open">✧ <span>Admin</span></button><button class="avatar" id="profile-open" aria-label="Player profile">A</button></div>
+    </header>
+    <main id="game" class="game-layout"></main>
+    <footer><span>✦ Take the scenic route.</span><span class="footer-note">A little travel game · Demo currency only</span></footer>
+  </div>
+  <div id="modal-root"></div>
+  <script src="game.js"></script>
+</body>
+</html>
